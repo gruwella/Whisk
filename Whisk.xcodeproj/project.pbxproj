@@ -23,6 +23,8 @@
 		EBE07876189980B8001473AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBE07874189980B8001473AE /* InfoPlist.strings */; };
 		EBE07878189980B8001473AE /* WhiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE07877189980B8001473AE /* WhiskTests.m */; };
 		EBE078821899825A001473AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE078811899825A001473AE /* CoreData.framework */; };
+		EBE07885189B5DF7001473AE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE07884189B5DF7001473AE /* ThirdViewController.m */; };
+		EBE07887189B6AFA001473AE /* IMG_2555.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE07886189B6AFA001473AE /* IMG_2555.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		EBE07875189980B8001473AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EBE07877189980B8001473AE /* WhiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiskTests.m; sourceTree = "<group>"; };
 		EBE078811899825A001473AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EBE07883189B5DF7001473AE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		EBE07884189B5DF7001473AE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		EBE07886189B6AFA001473AE /* IMG_2555.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2555.jpg; path = Images.xcassets/IMG_2555.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +131,9 @@
 				EBE0785F189980B8001473AE /* FirstViewController.m */,
 				EBE07861189980B8001473AE /* SecondViewController.h */,
 				EBE07862189980B8001473AE /* SecondViewController.m */,
+				EBE07883189B5DF7001473AE /* ThirdViewController.h */,
+				EBE07884189B5DF7001473AE /* ThirdViewController.m */,
+				EBE07886189B6AFA001473AE /* IMG_2555.jpg */,
 				EBE07864189980B8001473AE /* Images.xcassets */,
 				EBE07850189980B8001473AE /* Supporting Files */,
 			);
@@ -237,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE07887189B6AFA001473AE /* IMG_2555.jpg in Resources */,
 				EBE07865189980B8001473AE /* Images.xcassets in Resources */,
 				EBE07854189980B8001473AE /* InfoPlist.strings in Resources */,
 				EBE0785D189980B8001473AE /* Main.storyboard in Resources */,
@@ -259,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBE07863189980B8001473AE /* SecondViewController.m in Sources */,
+				EBE07885189B5DF7001473AE /* ThirdViewController.m in Sources */,
 				EBE0785A189980B8001473AE /* AppDelegate.m in Sources */,
 				EBE07860189980B8001473AE /* FirstViewController.m in Sources */,
 				EBE07856189980B8001473AE /* main.m in Sources */,
@@ -470,6 +480,7 @@
 				EBE0787D189980B8001473AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBE0787E189980B8001473AE /* Build configuration list for PBXNativeTarget "WhiskTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +489,7 @@
 				EBE07880189980B8001473AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
