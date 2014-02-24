@@ -25,6 +25,10 @@
 		EBE078821899825A001473AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBE078811899825A001473AE /* CoreData.framework */; };
 		EBE07885189B5DF7001473AE /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE07884189B5DF7001473AE /* ThirdViewController.m */; };
 		EBE07887189B6AFA001473AE /* IMG_2555.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBE07886189B6AFA001473AE /* IMG_2555.jpg */; };
+		EBE0788A18A5CE88001473AE /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBE0788818A5CE87001473AE /* Model.xcdatamodeld */; };
+		EBF2B3C618BB8FAA004B29A8 /* Recipes.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF2B3C518BB8FAA004B29A8 /* Recipes.m */; };
+		EBF2B3C918BB9477004B29A8 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF2B3C818BB9477004B29A8 /* TableViewCell.m */; };
+		EBF2B3CF18BB96C4004B29A8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF2B3CE18BB96C4004B29A8 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,13 @@
 		EBE07883189B5DF7001473AE /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		EBE07884189B5DF7001473AE /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		EBE07886189B6AFA001473AE /* IMG_2555.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2555.jpg; path = Images.xcassets/IMG_2555.jpg; sourceTree = "<group>"; };
+		EBE0788918A5CE88001473AE /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		EBF2B3C418BB8FAA004B29A8 /* Recipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recipes.h; path = ../Recipes.h; sourceTree = "<group>"; };
+		EBF2B3C518BB8FAA004B29A8 /* Recipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recipes.m; path = ../Recipes.m; sourceTree = "<group>"; };
+		EBF2B3C718BB9477004B29A8 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		EBF2B3C818BB9477004B29A8 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		EBF2B3CD18BB96C4004B29A8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EBF2B3CE18BB96C4004B29A8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +137,7 @@
 			children = (
 				EBE07858189980B8001473AE /* AppDelegate.h */,
 				EBE07859189980B8001473AE /* AppDelegate.m */,
+				EBE0788818A5CE87001473AE /* Model.xcdatamodeld */,
 				EBE0785B189980B8001473AE /* Main.storyboard */,
 				EBE0785E189980B8001473AE /* FirstViewController.h */,
 				EBE0785F189980B8001473AE /* FirstViewController.m */,
@@ -133,6 +145,12 @@
 				EBE07862189980B8001473AE /* SecondViewController.m */,
 				EBE07883189B5DF7001473AE /* ThirdViewController.h */,
 				EBE07884189B5DF7001473AE /* ThirdViewController.m */,
+				EBF2B3C718BB9477004B29A8 /* TableViewCell.h */,
+				EBF2B3C818BB9477004B29A8 /* TableViewCell.m */,
+				EBF2B3CD18BB96C4004B29A8 /* TableViewController.h */,
+				EBF2B3CE18BB96C4004B29A8 /* TableViewController.m */,
+				EBF2B3C418BB8FAA004B29A8 /* Recipes.h */,
+				EBF2B3C518BB8FAA004B29A8 /* Recipes.m */,
 				EBE07886189B6AFA001473AE /* IMG_2555.jpg */,
 				EBE07864189980B8001473AE /* Images.xcassets */,
 				EBE07850189980B8001473AE /* Supporting Files */,
@@ -269,9 +287,13 @@
 			files = (
 				EBE07863189980B8001473AE /* SecondViewController.m in Sources */,
 				EBE07885189B5DF7001473AE /* ThirdViewController.m in Sources */,
+				EBF2B3C618BB8FAA004B29A8 /* Recipes.m in Sources */,
 				EBE0785A189980B8001473AE /* AppDelegate.m in Sources */,
+				EBF2B3CF18BB96C4004B29A8 /* TableViewController.m in Sources */,
 				EBE07860189980B8001473AE /* FirstViewController.m in Sources */,
+				EBF2B3C918BB9477004B29A8 /* TableViewCell.m in Sources */,
 				EBE07856189980B8001473AE /* main.m in Sources */,
+				EBE0788A18A5CE88001473AE /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +514,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBE0788818A5CE87001473AE /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBE0788918A5CE88001473AE /* Model.xcdatamodel */,
+			);
+			currentVersion = EBE0788918A5CE88001473AE /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ../Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EBE0783E189980B8001473AE /* Project object */;
 }

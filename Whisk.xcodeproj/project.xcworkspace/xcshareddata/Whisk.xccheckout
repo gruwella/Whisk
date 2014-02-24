@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A0E468B7-7E6F-4767-860B-0AE66F68915F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Whisk</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E00C5DAD-A603-43AB-9C8F-625BA58ECA86</key>
+		<string>ssh://github.com/gruwella/Whisk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Whisk.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E00C5DAD-A603-43AB-9C8F-625BA58ECA86</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/gruwella/Whisk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E00C5DAD-A603-43AB-9C8F-625BA58ECA86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E00C5DAD-A603-43AB-9C8F-625BA58ECA86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Whisk</string>
+		</dict>
+	</array>
+</dict>
+</plist>
